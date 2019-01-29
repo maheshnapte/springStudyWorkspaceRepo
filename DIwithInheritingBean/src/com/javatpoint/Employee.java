@@ -23,10 +23,9 @@ void show(){
 	System.out.println(address);
 }
 
-
 @Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
-	}
+public String toString() {
+	return "Employee [id=" + id + ", name=" + name + ", address=" + address + "]";
+}
+
 }
